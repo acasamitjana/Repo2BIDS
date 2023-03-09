@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+Repo2BIDS
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This repository converts publicly available brain imaging repositories to the BIDS format.
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+BIDS protocol: https://bids.neuroimaging.io/
