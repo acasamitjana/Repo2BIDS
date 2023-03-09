@@ -1,8 +1,16 @@
-[build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
-
-[project]
-name = "repo2bids"
-authors = [{name = "Marc Salat", email = "marc.salat.v@gmail.com"}, {name = "Adria Casamitjana", email = "acasamitjana@ub.edu"}]
-dynamic = ["version", "description"]
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+| \.mypy_cache
+| \.tox
+| \.venv
+| _build
+| buck-out
+| build
+| dist
+)/
+'''
